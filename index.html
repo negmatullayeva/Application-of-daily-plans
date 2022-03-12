@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="list">
+        <h1>
+          Your today planes
+          <div class="underline"></div>
+        </h1>
+        <ul class="planeMenu">
+          <li class="planeList1 list-item"></li>
+          <li class="planeList2 list-item"></li>
+          <li class="planeList3 list-item"></li>
+          <li class="planeList4 list-item"></li>
+          <li class="planeList5 list-item"></li>
+        </ul>
+      </div>
+      <div class="addList">
+        <h1>
+          Create news in the list
+          <div class="underline"></div>
+        </h1>
+        <form class="add-input-form">
+          <div class="input-box">
+            <input type="text" id="add-plane-input" required />
+            <label for="add-plane-input">What do you want to do today</label>
+          </div>
+          <div class="input-box">
+            <label style="display: inline-block" for="E200">
+              <input type="checkbox" id="E200" name="E200" />
+              Is it favourite?
+            </label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
